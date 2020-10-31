@@ -1,0 +1,19 @@
+{
+  "name": "discord-bot-music",
+  "version": "0.0.1",
+  "description": "discord bot for music, file based",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/user-nemo/discord-bot-music.git"
+  },
+  "author": "user-nemo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/user-nemo/discord-bot-music/issues"
+  },
+  "homepage": "https://github.com/user-nemo/discord-bot-music#readme"
+}

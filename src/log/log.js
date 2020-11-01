@@ -1,9 +1,13 @@
 const winston = require('winston');
 const LOGGER = winston.createLogger({
     level: 'debug',
-    format: winston.format.json(),
+    format: winston.format.combine(
+        winston.format.timestamp(),
+        winston.format.splat(),
+        winston.format.json()
+    ),
     defaultMeta: {
-        service: 'user-service'
+        service: 'application'
     },
     transports: [
         new winston.transports.Console({
